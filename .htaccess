@@ -1,0 +1,5 @@
+Options +FollowSymlinks
+Options -Indexes
+
+RewriteEngine on
+RewriteRule ^/locate/(.*)$ index.php?request=$1 [L,QSA]
